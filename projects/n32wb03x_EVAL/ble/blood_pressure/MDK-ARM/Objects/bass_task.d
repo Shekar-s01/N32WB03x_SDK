@@ -1,0 +1,36 @@
+./objects/bass_task.o: \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_profile\bas\bass\src\bass_task.c \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h \
+  ..\..\..\..\..\firmware\CMSIS\device\n32wb03x.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cm0.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cmInstr.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cmFunc.h \
+  ..\..\..\..\..\firmware\CMSIS\device\system_n32wb03x.h \
+  ..\..\..\..\..\firmware\CMSIS\device\n32wb03x_conf.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_crc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_dma.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_exti.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_gpio.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_i2c.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_iwdg.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_pwr.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_rcc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_rtc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_spi.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_tim.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_usart.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_lpuart.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_wwdg.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_keyscan.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h \
+  ..\inc\app_user_config.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_usart.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h \
+  ..\inc\app_profile\rwapp_config.h \
+  ..\..\..\..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h

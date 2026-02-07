@@ -1,0 +1,26 @@
+./objects/n32wb03x_adc.o: \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\src\n32wb03x_adc.c \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h \
+  ..\..\..\..\..\firmware\CMSIS\device\n32wb03x.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cm0.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cmInstr.h \
+  ..\..\..\..\..\firmware\CMSIS\core\core_cmFunc.h \
+  ..\..\..\..\..\firmware\CMSIS\device\system_n32wb03x.h \
+  ..\..\..\..\..\firmware\CMSIS\device\n32wb03x_conf.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_crc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_dma.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_exti.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_gpio.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_i2c.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_iwdg.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_pwr.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_rcc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_rtc.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_spi.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_tim.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_usart.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_lpuart.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_wwdg.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_keyscan.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h \
+  ..\..\..\..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h

@@ -1,0 +1,2365 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\blood_pressure.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\blood_pressure.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Tue Jan 13 23:50:28 2026
+<BR><P>
+<H3>Maximum Stack Usage =        552 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+ns_sec_bond_store_evt_handler &rArr; ns_ble_list_set_ral &rArr; __aeabi_memcpy
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[a4]">__user_initial_stackheap</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[5]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">SysTick_Handler</a><BR>
+ <LI><a href="#[1b]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1b]">ADC_IRQHandler</a><BR>
+ <LI><a href="#[b0]">system_delay_cycles</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b0]">system_delay_cycles</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1b]">ADC_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[18]">BLE_CRYPT_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[17]">BLE_ERROR_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[10]">BLE_FIFO_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[f]">BLE_FINETGT_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[9]">BLE_HSLOT_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[20]">BLE_SLP_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[7]">BLE_SW_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[19]">BLE_TIMESTAMP_TGT1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1e]">BLE_TIMESTAMP_TGT2_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[11]">DMA_Channel1_2_3_4_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[12]">DMA_Channel5_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[c]">EXTI0_1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[d]">EXTI2_3_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[e]">EXTI4_12_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[a]">FLASH_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1d]">I2C1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[25]">IRC_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[21]">KEYSCAN_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[23]">LPUART1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[b]">RCC_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[15]">RESERVED_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[8]">RTC_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1f]">SPI1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1c]">SPI2_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[26]">SystemInit</a> from system_n32wb03x.o(.text.SystemInit) referenced from startup_n32wb03x.o(.text)
+ <LI><a href="#[13]">TIM1_BRK_UP_TRG_COM_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[14]">TIM1_CC_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[16]">TIM3_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[1a]">TIM6_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[22]">USART1_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[24]">USART2_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[6]">WWDG_IRQHandler</a> from startup_n32wb03x.o(.text) referenced from startup_n32wb03x.o(RESET)
+ <LI><a href="#[27]">__main</a> from __main.o(!!!main) referenced from startup_n32wb03x.o(.text)
+ <LI><a href="#[29]">_printf_input_char</a> from _printf_char_common.o(.text) referenced from _printf_char_common.o(.text)
+ <LI><a href="#[2c]">app_ble_adv_msg_handler</a> from app_ble.o(.text.app_ble_adv_msg_handler) referenced from app_ble.o(.text.app_ble_init)
+ <LI><a href="#[2b]">app_ble_msg_handler</a> from app_ble.o(.text.app_ble_msg_handler) referenced from app_ble.o(.text.app_ble_init)
+ <LI><a href="#[2f]">app_blood_pressure_timeout_handler</a> from app_blps.o(.text.app_blood_pressure_timeout_handler) referenced from app_blps.o(.text.app_blood_pressure_timeout_handler)
+ <LI><a href="#[2f]">app_blood_pressure_timeout_handler</a> from app_blps.o(.text.app_blood_pressure_timeout_handler) referenced from app_blps.o(.text.blps_cfg_indntf_ind_handler)
+ <LI><a href="#[2e]">app_blps_add_blps</a> from app_blps.o(.text.app_blps_add_blps) referenced from app_ble.o(.text.app_ble_init)
+ <LI><a href="#[53]">app_conn_params_update_evt_handler</a> from ns_ble_task.o(.text.app_conn_params_update_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[2d]">app_dis_add_dis</a> from app_dis.o(.text.app_dis_add_dis) referenced from app_ble.o(.text.app_ble_init)
+ <LI><a href="#[3f]">app_entry_point_handler</a> from ns_ble_task.o(.text.app_entry_point_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[52]">app_lsi_calib_evt_handler</a> from ns_ble_task.o(.text.app_lsi_calib_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[56]">app_sec_msg_dflt_handler</a> from ns_sec.o(.text.app_sec_msg_dflt_handler) referenced from ns_sec.o(.rodata.app_sec_msg_handler_list)
+ <LI><a href="#[2a]">app_user_msg_handler</a> from app_ble.o(.text.app_user_msg_handler) referenced from app_ble.o(.text.app_ble_init)
+ <LI><a href="#[3b]">blps_cfg_indntf_ind_handler</a> from app_blps.o(.text.blps_cfg_indntf_ind_handler) referenced from app_blps.o(.rodata.app_blps_msg_handler_list)
+ <LI><a href="#[5e]">blps_cleanup</a> from blps.o(.text.blps_cleanup) referenced from blps.o(.rodata.blps_itf)
+ <LI><a href="#[3d]">blps_cmp_evt_handler</a> from app_blps.o(.text.blps_cmp_evt_handler) referenced from app_blps.o(.rodata.app_blps_msg_handler_list)
+ <LI><a href="#[5d]">blps_create</a> from blps.o(.text.blps_create) referenced from blps.o(.rodata.blps_itf)
+ <LI><a href="#[5c]">blps_destroy</a> from blps.o(.text.blps_destroy) referenced from blps.o(.rodata.blps_itf)
+ <LI><a href="#[5f]">blps_enable_req_handler</a> from blps_task.o(.text.blps_enable_req_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[3a]">blps_enable_rsp_handler</a> from app_blps.o(.text.blps_enable_rsp_handler) referenced from app_blps.o(.rodata.app_blps_msg_handler_list)
+ <LI><a href="#[5b]">blps_init</a> from blps.o(.text.blps_init) referenced from blps.o(.rodata.blps_itf)
+ <LI><a href="#[61]">blps_meas_send_cmd_handler</a> from blps_task.o(.text.blps_meas_send_cmd_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[30]">blps_prf_itf_get</a> from blps.o(.text.blps_prf_itf_get) referenced from app_blps.o(.text.app_blps_add_blps)
+ <LI><a href="#[62]">blps_racp_resp_send_cmd_handler</a> from blps_task.o(.text.blps_racp_resp_send_cmd_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[3c]">blps_racp_write_ind_handler</a> from app_blps.o(.text.blps_racp_write_ind_handler) referenced from app_blps.o(.rodata.app_blps_msg_handler_list)
+ <LI><a href="#[68]">diss_cleanup</a> from diss.o(.text.diss_cleanup) referenced from diss.o(.rodata.diss_itf)
+ <LI><a href="#[67]">diss_create</a> from diss.o(.text.diss_create) referenced from diss.o(.rodata.diss_itf)
+ <LI><a href="#[66]">diss_destroy</a> from diss.o(.text.diss_destroy) referenced from diss.o(.rodata.diss_itf)
+ <LI><a href="#[65]">diss_init</a> from diss.o(.text.diss_init) referenced from diss.o(.rodata.diss_itf)
+ <LI><a href="#[31]">diss_prf_itf_get</a> from diss.o(.text.diss_prf_itf_get) referenced from app_dis.o(.text.app_dis_add_dis)
+ <LI><a href="#[69]">diss_set_value_req_handler</a> from diss_task.o(.text.diss_set_value_req_handler) referenced from diss_task.o(.rodata.diss_msg_handler_tab)
+ <LI><a href="#[6b]">diss_value_cfm_handler</a> from diss_task.o(.text.diss_value_cfm_handler) referenced from diss_task.o(.rodata.diss_msg_handler_tab)
+ <LI><a href="#[3e]">diss_value_req_ind_handler</a> from app_dis.o(.text.diss_value_req_ind_handler) referenced from app_dis.o(.rodata.app_dis_msg_handler_list)
+ <LI><a href="#[28]">fputc</a> from ns_log_usart.o(.text.fputc) referenced from _printf_char_file.o(.text)
+ <LI><a href="#[58]">gapc_bond_ind_handler</a> from ns_sec.o(.text.gapc_bond_ind_handler) referenced from ns_sec.o(.rodata.app_sec_msg_handler_list)
+ <LI><a href="#[57]">gapc_bond_req_ind_handler</a> from ns_sec.o(.text.gapc_bond_req_ind_handler) referenced from ns_sec.o(.rodata.app_sec_msg_handler_list)
+ <LI><a href="#[50]">gapc_cmp_evt_handler</a> from ns_ble_task.o(.text.gapc_cmp_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[51]">gapc_conn_rssi_ind_handler</a> from ns_ble_task.o(.text.gapc_conn_rssi_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[48]">gapc_connection_req_ind_handler</a> from ns_ble_task.o(.text.gapc_connection_req_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[4c]">gapc_disconnect_ind_handler</a> from ns_ble_task.o(.text.gapc_disconnect_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[5a]">gapc_encrypt_ind_handler</a> from ns_sec.o(.text.gapc_encrypt_ind_handler) referenced from ns_sec.o(.rodata.app_sec_msg_handler_list)
+ <LI><a href="#[59]">gapc_encrypt_req_ind_handler</a> from ns_sec.o(.text.gapc_encrypt_req_ind_handler) referenced from ns_sec.o(.rodata.app_sec_msg_handler_list)
+ <LI><a href="#[4d]">gapc_get_dev_info_req_ind_handler</a> from ns_ble_task.o(.text.gapc_get_dev_info_req_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[4e]">gapc_le_phy_ind_handler</a> from ns_ble_task.o(.text.gapc_le_phy_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[4b]">gapc_le_pkt_size_ind_handler</a> from ns_ble_task.o(.text.gapc_le_pkt_size_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[49]">gapc_param_update_req_ind_handler</a> from ns_ble_task.o(.text.gapc_param_update_req_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[4a]">gapc_param_updated_ind_handler</a> from ns_ble_task.o(.text.gapc_param_updated_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[4f]">gapc_set_dev_info_req_ind_handler</a> from ns_ble_task.o(.text.gapc_set_dev_info_req_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[40]">gapm_activity_created_ind_handler</a> from ns_ble_task.o(.text.gapm_activity_created_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[41]">gapm_activity_stopped_ind_handler</a> from ns_ble_task.o(.text.gapm_activity_stopped_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[43]">gapm_addr_solved_ind_handler</a> from ns_ble_task.o(.text.gapm_addr_solved_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[44]">gapm_cmp_evt_handler</a> from ns_ble_task.o(.text.gapm_cmp_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[55]">gapm_ext_adv_repoer_ind_handler</a> from ns_ble_task.o(.text.gapm_ext_adv_repoer_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[42]">gapm_gen_rand_nb_ind_handler</a> from ns_ble_task.o(.text.gapm_gen_rand_nb_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[45]">gapm_profile_added_ind_handler</a> from ns_ble_task.o(.text.gapm_profile_added_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[47]">gattc_cmp_evt_handler</a> from ns_ble_task.o(.text.gattc_cmp_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[63]">gattc_cmp_evt_handler</a> from blps_task.o(.text.gattc_cmp_evt_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[46]">gattc_mtu_changed_ind_handler</a> from ns_ble_task.o(.text.gattc_mtu_changed_ind_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[60]">gattc_read_req_ind_handler</a> from blps_task.o(.text.gattc_read_req_ind_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[6a]">gattc_read_req_ind_handler</a> from diss_task.o(.text.gattc_read_req_ind_handler) referenced from diss_task.o(.rodata.diss_msg_handler_tab)
+ <LI><a href="#[64]">gattc_write_req_ind_handler</a> from blps_task.o(.text.gattc_write_req_ind_handler) referenced from blps_task.o(.rodata.blps_msg_handler_tab)
+ <LI><a href="#[34]">ns_EXTI4_12_IRQHandler</a> from ns_ble.o(.text.ns_EXTI4_12_IRQHandler) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[32]">ns_HardFault_Handler</a> from ns_ble.o(.text.ns_HardFault_Handler) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[54]">ns_sec_bond_store_evt_handler</a> from ns_sec.o(.text.ns_sec_bond_store_evt_handler) referenced from ns_ble_task.o(.rodata.app_msg_handler_tab)
+ <LI><a href="#[35]">prf_add_profile</a> from prf.o(.text.prf_add_profile) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[37]">prf_get_id_from_task</a> from prf.o(.text.prf_get_id_from_task) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[36]">prf_get_task_from_id</a> from prf.o(.text.prf_get_task_from_id) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[33]">rwip_slp_isr</a> from rwip_driver.o(.text.rwip_slp_isr) referenced from ns_ble.o(.text.ns_ble_stack_init)
+ <LI><a href="#[39]">timer_canceled_handler</a> from ns_timer.o(.text.timer_canceled_handler) referenced from ns_timer.o(.text.ns_timer_api_process_handler)
+ <LI><a href="#[38]">timer_modified_handler</a> from ns_timer.o(.text.timer_modified_handler) referenced from ns_timer.o(.text.ns_timer_api_process_handler)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[10a]"></a>EXTI_PA11_Configuration</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep (via Veneer)
+</UL>
+
+<P><STRONG><a name="[117]"></a>ahi_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init (via Veneer)
+</UL>
+
+<P><STRONG><a name="[ce]"></a>attm_svc_create_db</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler (via Veneer)
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_init (via Veneer)
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_init (via Veneer)
+</UL>
+
+<P><STRONG><a name="[fd]"></a>calib_lsi_clk</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_lsc_config
+</UL>
+
+<P><STRONG><a name="[dc]"></a>co_list_extract</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+</UL>
+
+<P><STRONG><a name="[d9]"></a>co_list_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_init
+</UL>
+
+<P><STRONG><a name="[d7]"></a>co_list_pop_front</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_destroy
+</UL>
+
+<P><STRONG><a name="[dd]"></a>co_list_push_back</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+</UL>
+
+<P><STRONG><a name="[f7]"></a>delay_n_10us</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[113]"></a>ecc_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[cd]"></a>gapc_get_conhdl</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_req_handler
+</UL>
+
+<P><STRONG><a name="[115]"></a>h4tl_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[116]"></a>hci_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[10b]"></a>ke_event_set</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+</UL>
+
+<P><STRONG><a name="[cc]"></a>ke_free</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_destroy
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_destroy
+</UL>
+
+<P><STRONG><a name="[10f]"></a>ke_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[cf]"></a>ke_malloc</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_init
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_init
+</UL>
+
+<P><STRONG><a name="[110]"></a>ke_mem_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[bd]"></a>ke_msg_alloc</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_dis_add_dis
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_req_ind_handler
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_conn_rssi_ind_handler
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_set_dev_info_req_ind_handler
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_dev_info_req_ind_handler
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_param_update_req_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_init
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stop_scan
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_scan
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_scan
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_stop
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_update_param
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_disconnect
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_list_set_ral
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_api_process_handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_req_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blps_add_blps
+</UL>
+
+<P><STRONG><a name="[e4]"></a>ke_msg_free</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_update_param
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[be]"></a>ke_msg_send</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_dis_add_dis
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_req_ind_handler
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_conn_rssi_ind_handler
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_set_dev_info_req_ind_handler
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_dev_info_req_ind_handler
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_param_update_req_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_init
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stop_scan
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_scan
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_scan
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_stop
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_update_param
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_disconnect
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_list_set_ral
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_api_process_handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_req_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blps_add_blps
+</UL>
+
+<P><STRONG><a name="[11b]"></a>ke_sleep_check</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_sleep
+</UL>
+
+<P><STRONG><a name="[bf]"></a>ke_state_get</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_conn_rssi_ind_handler
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_profile_added_ind_handler
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_req_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[d1]"></a>ke_state_set</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_disconnect_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_init
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_init
+</UL>
+
+<P><STRONG><a name="[102]"></a>ke_task_create</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
+</UL>
+
+<P><STRONG><a name="[10e]"></a>ke_task_delete</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
+</UL>
+
+<P><STRONG><a name="[10d]"></a>ke_task_msg_flush</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
+</UL>
+
+<P><STRONG><a name="[c9]"></a>ke_timer_set</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_lsi_calib_evt_handler
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_conn_rssi_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_ind_handler
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_create
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_api_process_handler
+</UL>
+
+<P><STRONG><a name="[111]"></a>rf_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[118]"></a>rwble_hl_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[119]"></a>rwble_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[11a]"></a>rwip_driver_init</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[114]"></a>rwip_eif_get</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[11d]"></a>rwip_prevent_sleep_clear</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+</UL>
+
+<P><STRONG><a name="[11c]"></a>rwip_prevent_sleep_set</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_sleep
+</UL>
+
+<P><STRONG><a name="[f9]"></a>rwip_schedule</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[e1]"></a>rwip_time_get</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, symbol_g15.obj(ABSOLUTE))
+<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_sleep
+</UL>
+
+<P><STRONG><a name="[27]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(.text)
+</UL>
+<P><STRONG><a name="[6c]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[6e]"></a>__scatterload_rt2</STRONG> (Thumb, 74 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[121]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[122]"></a>__scatterload_loop</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[123]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, __scatter.o(!!handler_null), UNUSED)
+
+<P><STRONG><a name="[8e]"></a>_printf_percent</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+
+<P><STRONG><a name="[6f]"></a>_printf_d</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_d.o(.ARM.Collect$$_printf_percent$$00000009))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88 + Unknown Stack Size
+<LI>Call Chain = _printf_d &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_x
+</UL>
+
+<P><STRONG><a name="[70]"></a>_printf_x</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
+<LI>Call Chain = _printf_x &rArr; _printf_int_hex &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_s
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_d
+</UL>
+
+<P><STRONG><a name="[72]"></a>_printf_s</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_s.o(.ARM.Collect$$_printf_percent$$00000014))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
+<LI>Call Chain = _printf_s &rArr; _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_percent_end
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_string
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_x
+</UL>
+
+<P><STRONG><a name="[74]"></a>_printf_percent_end</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_s
+</UL>
+
+<P><STRONG><a name="[7b]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[124]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+
+<P><STRONG><a name="[125]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[126]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000006))
+
+<P><STRONG><a name="[76]"></a>__rt_lib_init_rand_2</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000F))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12 + Unknown Stack Size
+<LI>Call Chain = __rt_lib_init_rand_2 &rArr; _rand_init &rArr; srand
+</UL>
+<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rand_init
+</UL>
+
+<P><STRONG><a name="[127]"></a>__rt_lib_init_relocate_pie_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[128]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[129]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+
+<P><STRONG><a name="[12a]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[12b]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[12c]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[12d]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000034))
+
+<P><STRONG><a name="[12e]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+
+<P><STRONG><a name="[12f]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[130]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[131]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[132]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[133]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[134]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[135]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[136]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000010))
+
+<P><STRONG><a name="[137]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000035))
+
+<P><STRONG><a name="[138]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[139]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000027))
+
+<P><STRONG><a name="[80]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[13a]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[13b]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+
+<P><STRONG><a name="[13c]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[13d]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+
+<P><STRONG><a name="[13e]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+
+<P><STRONG><a name="[13f]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[140]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+
+<P><STRONG><a name="[6d]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[141]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[78]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[7a]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[142]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[7c]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; app_ble_init &rArr; SystemGetMacAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[143]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[a6]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[7f]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[144]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[81]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[e2]"></a>rand</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, rand.o(.emb_text))
+<BR><BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[92]"></a>__aeabi_memcpy4</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, rt_memcpy.o(.emb_text))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemGetMacAddr
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_init
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+
+<P><STRONG><a name="[145]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memcpy.o(.emb_text), UNUSED)
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>BLE_CRYPT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>BLE_ERROR_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>BLE_FIFO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>BLE_FINETGT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>BLE_HSLOT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>BLE_SLP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>BLE_SW_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>BLE_TIMESTAMP_TGT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>BLE_TIMESTAMP_TGT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>DMA_Channel1_2_3_4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>DMA_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>EXTI0_1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>EXTI2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>EXTI4_12_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>IRC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>KEYSCAN_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>LPUART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>RESERVED_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>TIM1_BRK_UP_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>TIM6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_n32wb03x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(RESET)
+</UL>
+<P><STRONG><a name="[a4]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_n32wb03x.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[83]"></a>__2printf</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, noretval__2printf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_cmp_evt_handler
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_write_ind_handler
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_rsp_handler
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_le_phy_ind_handler
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_disconnect_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[86]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, _printf_pad.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _printf_pre_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_str
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+
+<P><STRONG><a name="[87]"></a>_printf_post_padding</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, _printf_pad.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _printf_post_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_str
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+
+<P><STRONG><a name="[85]"></a>_printf_str</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, _printf_str.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = _printf_str &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
+</UL>
+
+<P><STRONG><a name="[71]"></a>_printf_int_dec</STRONG> (Thumb, 90 bytes, Stack size 32 bytes, _printf_dec.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_unsigned (Weak Reference)
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_signed (Weak Reference)
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_udiv10
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_d
+</UL>
+
+<P><STRONG><a name="[73]"></a>_printf_int_hex</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, _printf_hex_int.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = _printf_int_hex &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_unsigned (Weak Reference)
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_x
+</UL>
+
+<P><STRONG><a name="[146]"></a>_printf_longlong_hex</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, _printf_hex_int.o(.text), UNUSED)
+
+<P><STRONG><a name="[8c]"></a>__printf</STRONG> (Thumb, 306 bytes, Stack size 32 bytes, __printf_flags_wp.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32 + Unknown Stack Size
+<LI>Call Chain = __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_percent
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_is_digit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
+</UL>
+
+<P><STRONG><a name="[8f]"></a>puts</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, puts.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = puts &rArr; fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_write_ind_handler
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_cfg_indntf_ind_handler
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_update_param
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_EXTI4_12_IRQHandler
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_HardFault_Handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_msg_handler
+</UL>
+
+<P><STRONG><a name="[90]"></a>srand</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, rand.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = srand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rand_init
+</UL>
+
+<P><STRONG><a name="[77]"></a>_rand_init</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, rand.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = _rand_init &rArr; srand
+</UL>
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;srand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_rand_2
+</UL>
+
+<P><STRONG><a name="[e8]"></a>memcmp</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, memcmp.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = memcmp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_ext_adv_repoer_ind_handler
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_scan_data_find
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[91]"></a>__aeabi_memcpy</STRONG> (Thumb, 130 bytes, Stack size 24 bytes, rt_memcpy.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_req_ind_handler
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_set_dev_info_req_ind_handler
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_dev_info_req_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_gap_init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_list_set_ral
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_peer_id
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_ind_handler
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove
+</UL>
+
+<P><STRONG><a name="[147]"></a>__rt_memcpy</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, rt_memcpy.o(.text), UNUSED)
+
+<P><STRONG><a name="[93]"></a>__aeabi_memmove4</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, rt_memmove.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_memmove4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove
+</UL>
+
+<P><STRONG><a name="[148]"></a>__aeabi_memmove8</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, rt_memmove.o(.text), UNUSED)
+
+<P><STRONG><a name="[94]"></a>__aeabi_memmove</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, rt_memmove.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __aeabi_memmove &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+</UL>
+
+<P><STRONG><a name="[149]"></a>__rt_memmove</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, rt_memmove.o(.text), UNUSED)
+
+<P><STRONG><a name="[96]"></a>_memset_w</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_memclr_w
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset
+</UL>
+
+<P><STRONG><a name="[95]"></a>_memset</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset_w
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[97]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_pack_meas_value
+</UL>
+
+<P><STRONG><a name="[14a]"></a>__rt_memclr</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memclr.o(.text), UNUSED)
+
+<P><STRONG><a name="[b6]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_peer_id
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[14b]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memclr.o(.text), UNUSED)
+
+<P><STRONG><a name="[98]"></a>__rt_memclr_w</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, rt_memclr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset_w
+</UL>
+
+<P><STRONG><a name="[e3]"></a>__aeabi_uidivmod</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, aeabi_sdivfast.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[14c]"></a>__aeabi_idivmod</STRONG> (Thumb, 472 bytes, Stack size 8 bytes, aeabi_sdivfast.o(.text), UNUSED)
+
+<P><STRONG><a name="[14d]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[14e]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[14f]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[11e]"></a>__aeabi_fdiv</STRONG> (Thumb, 0 bytes, Stack size 20 bytes, fdiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = __aeabi_fdiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+</UL>
+
+<P><STRONG><a name="[150]"></a>__divsf3</STRONG> (Thumb, 0 bytes, Stack size 20 bytes, fdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[9a]"></a>_fdiv</STRONG> (Thumb, 334 bytes, Stack size 20 bytes, fdiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_frdiv
+</UL>
+
+<P><STRONG><a name="[99]"></a>_frdiv</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, fdiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fdiv
+</UL>
+
+<P><STRONG><a name="[120]"></a>__aeabi_f2uiz</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, ffixui.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+</UL>
+
+<P><STRONG><a name="[151]"></a>_ffixu</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, ffixui.o(.text), UNUSED)
+
+<P><STRONG><a name="[9c]"></a>__aeabi_i2f_normalise</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+</UL>
+
+<P><STRONG><a name="[9b]"></a>__aeabi_i2f</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, fflti.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f_normalise
+</UL>
+
+<P><STRONG><a name="[152]"></a>_fflt</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, fflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[9d]"></a>__aeabi_ui2f</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f_normalise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+</UL>
+
+<P><STRONG><a name="[153]"></a>_ffltu</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, fflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[8b]"></a>_printf_int_common</STRONG> (Thumb, 176 bytes, Stack size 40 bytes, _printf_intcommon.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
+</UL>
+
+<P><STRONG><a name="[9e]"></a>_printf_cs_common</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, _printf_char.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_str
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_mbtowc (Weak Reference)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_string
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char
+</UL>
+
+<P><STRONG><a name="[a0]"></a>_printf_char</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, _printf_char.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
+</UL>
+
+<P><STRONG><a name="[75]"></a>_printf_string</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, _printf_char.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_s
+</UL>
+
+<P><STRONG><a name="[84]"></a>_printf_char_file</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, _printf_char_file.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112 + Unknown Stack Size
+<LI>Call Chain = _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ferror
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+
+<P><STRONG><a name="[8a]"></a>__rt_udiv10</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, rtudiv10.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
+</UL>
+
+<P><STRONG><a name="[a1]"></a>_printf_char_common</STRONG> (Thumb, 32 bytes, Stack size 64 bytes, _printf_char_common.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96 + Unknown Stack Size
+<LI>Call Chain = _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+
+<P><STRONG><a name="[a2]"></a>ferror</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, ferror.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+
+<P><STRONG><a name="[79]"></a>__user_setup_stackheap</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[7e]"></a>exit</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = exit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_call_atexit_fns (Weak Reference)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[154]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[a3]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[155]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[82]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[156]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[157]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[158]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dclz77c.o(.text), UNUSED)
+
+<P><STRONG><a name="[159]"></a>__decompress2</STRONG> (Thumb, 96 bytes, Stack size unknown bytes, __dclz77c.o(.text), UNUSED)
+
+<P><STRONG><a name="[15a]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[fc]"></a>EXTI_ClrITPendBit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, n32wb03x_exti.o(.text.EXTI_ClrITPendBit))
+<BR><BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_EXTI4_12_IRQHandler
+</UL>
+
+<P><STRONG><a name="[fb]"></a>EXTI_GetITStatus</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, n32wb03x_exti.o(.text.EXTI_GetITStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_EXTI4_12_IRQHandler
+</UL>
+
+<P><STRONG><a name="[fe]"></a>EXTI_InitPeripheral</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, n32wb03x_exti.o(.text.EXTI_InitPeripheral))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EXTI_InitPeripheral
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+</UL>
+
+<P><STRONG><a name="[105]"></a>GPIO_DeInitPin</STRONG> (Thumb, 116 bytes, Stack size 36 bytes, n32wb03x_gpio.o(.text.GPIO_DeInitPin))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = GPIO_DeInitPin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_deinit
+</UL>
+
+<P><STRONG><a name="[aa]"></a>GPIO_InitPeripheral</STRONG> (Thumb, 268 bytes, Stack size 44 bytes, n32wb03x_gpio.o(.text.GPIO_InitPeripheral))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = GPIO_InitPeripheral
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedInit
+</UL>
+
+<P><STRONG><a name="[a9]"></a>GPIO_InitStruct</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, n32wb03x_gpio.o(.text.GPIO_InitStruct))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_InitStruct
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedInit
+</UL>
+
+<P><STRONG><a name="[ac]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, n32wb03x_gpio.o(.text.GPIO_ResetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedOff
+</UL>
+
+<P><STRONG><a name="[ae]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, n32wb03x_gpio.o(.text.GPIO_SetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedOn
+</UL>
+
+<P><STRONG><a name="[a7]"></a>LedInit</STRONG> (Thumb, 64 bytes, Stack size 48 bytes, app_gpio.o(.text.LedInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = LedInit &rArr; GPIO_InitPeripheral
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_EnableAPB2PeriphClk
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_InitStruct
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_InitPeripheral
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ab]"></a>LedOff</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, app_gpio.o(.text.LedOff))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LedOff
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_msg_handler
+</UL>
+
+<P><STRONG><a name="[ad]"></a>LedOn</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, app_gpio.o(.text.LedOn))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LedOn
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_msg_handler
+</UL>
+
+<P><STRONG><a name="[e7]"></a>Qflash_Erase_Sector</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, n32wb03x_qflash.o(.text.Qflash_Erase_Sector))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Qflash_Erase_Sector
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_init
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_peer_id
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_encrypt_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[107]"></a>Qflash_Init</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, n32wb03x_qflash.o(.text.Qflash_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_init
+</UL>
+
+<P><STRONG><a name="[106]"></a>Qflash_Write</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, n32wb03x_qflash.o(.text.Qflash_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Qflash_Write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+</UL>
+
+<P><STRONG><a name="[100]"></a>RCC_EnableAHBPeriphClk</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, n32wb03x_rcc.o(.text.RCC_EnableAHBPeriphClk))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+</UL>
+
+<P><STRONG><a name="[a8]"></a>RCC_EnableAPB2PeriphClk</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, n32wb03x_rcc.o(.text.RCC_EnableAPB2PeriphClk))
+<BR><BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedInit
+</UL>
+
+<P><STRONG><a name="[b2]"></a>RCC_GetClocksFreqValue</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, n32wb03x_rcc.o(.text.RCC_GetClocksFreqValue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RCC_GetClocksFreqValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+</UL>
+
+<P><STRONG><a name="[af]"></a>SystemGetMacAddr</STRONG> (Thumb, 60 bytes, Stack size 344 bytes, system_n32wb03x.o(.text.SystemGetMacAddr))
+<BR><BR>[Stack]<UL><LI>Max Depth = 344<LI>Call Chain = SystemGetMacAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[26]"></a>SystemInit</STRONG> (Thumb, 360 bytes, Stack size 368 bytes, system_n32wb03x.o(.text.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 368<LI>Call Chain = SystemInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_delay_cycles
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_n32wb03x.o(.text)
+</UL>
+<P><STRONG><a name="[104]"></a>USART_Enable</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, n32wb03x_usart.o(.text.USART_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_deinit
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+</UL>
+
+<P><STRONG><a name="[df]"></a>USART_GetFlagStatus</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, n32wb03x_usart.o(.text.USART_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[b1]"></a>USART_Init</STRONG> (Thumb, 128 bytes, Stack size 40 bytes, n32wb03x_usart.o(.text.USART_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USART_Init &rArr; RCC_GetClocksFreqValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreqValue
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+</UL>
+
+<P><STRONG><a name="[de]"></a>USART_SendData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, n32wb03x_usart.o(.text.USART_SendData))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[2c]"></a>app_ble_adv_msg_handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, app_ble.o(.text.app_ble_adv_msg_handler))
+<BR>[Address Reference Count : 1]<UL><LI> app_ble.o(.text.app_ble_init)
+</UL>
+<P><STRONG><a name="[b4]"></a>app_ble_init</STRONG> (Thumb, 248 bytes, Stack size 128 bytes, app_ble.o(.text.app_ble_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 472<LI>Call Chain = app_ble_init &rArr; SystemGetMacAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemGetMacAddr
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_init
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_gap_init
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_add_prf_func_register
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_init
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2b]"></a>app_ble_msg_handler</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, app_ble.o(.text.app_ble_msg_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = app_ble_msg_handler &rArr; ns_ble_adv_start &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedOff
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedOn
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_ble.o(.text.app_ble_init)
+</UL>
+<P><STRONG><a name="[2f]"></a>app_blood_pressure_timeout_handler</STRONG> (Thumb, 148 bytes, Stack size 16 bytes, app_blps.o(.text.app_blood_pressure_timeout_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_blood_pressure_timeout_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_create
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_get_task_from_id
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 2]<UL><LI> app_blps.o(.text.blps_cfg_indntf_ind_handler)
+<LI> app_blps.o(.text.app_blood_pressure_timeout_handler)
+</UL>
+<P><STRONG><a name="[2e]"></a>app_blps_add_blps</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, app_blps.o(.text.app_blps_add_blps))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_blps_add_blps &rArr; ns_ble_prf_task_register
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_prf_task_register
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_get_itf_func_register
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_ble.o(.text.app_ble_init)
+</UL>
+<P><STRONG><a name="[2d]"></a>app_dis_add_dis</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, app_dis.o(.text.app_dis_add_dis))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_dis_add_dis &rArr; ns_ble_prf_task_register
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_prf_task_register
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_get_itf_func_register
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_ble.o(.text.app_ble_init)
+</UL>
+<P><STRONG><a name="[3f]"></a>app_entry_point_handler</STRONG> (Thumb, 272 bytes, Stack size 48 bytes, ns_ble_task.o(.text.app_entry_point_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = app_entry_point_handler &rArr; ns_timer_api_process_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_api_process_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[108]"></a>app_sleep_prepare_proc</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text.app_sleep_prepare_proc))
+<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+</UL>
+
+<P><STRONG><a name="[10c]"></a>app_sleep_resume_proc</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text.app_sleep_resume_proc))
+<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+</UL>
+
+<P><STRONG><a name="[2a]"></a>app_user_msg_handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, app_ble.o(.text.app_user_msg_handler))
+<BR>[Address Reference Count : 1]<UL><LI> app_ble.o(.text.app_ble_init)
+</UL>
+<P><STRONG><a name="[d2]"></a>blps_pack_meas_value</STRONG> (Thumb, 198 bytes, Stack size 16 bytes, blps.o(.text.blps_pack_meas_value))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = blps_pack_meas_value &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_pack_date_time
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+</UL>
+
+<P><STRONG><a name="[30]"></a>blps_prf_itf_get</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, blps.o(.text.blps_prf_itf_get))
+<BR>[Address Reference Count : 1]<UL><LI> app_blps.o(.text.app_blps_add_blps)
+</UL>
+<P><STRONG><a name="[d3]"></a>blps_send_cmp_evt</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, blps.o(.text.blps_send_cmp_evt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = blps_send_cmp_evt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_dst_task_get
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_src_task_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_cmp_evt_handler
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+</UL>
+
+<P><STRONG><a name="[d0]"></a>blps_task_init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, blps_task.o(.text.blps_task_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = blps_task_init &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_init
+</UL>
+
+<P><STRONG><a name="[db]"></a>diss_check_val_len</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, diss.o(.text.diss_check_val_len))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+</UL>
+
+<P><STRONG><a name="[f6]"></a>diss_handle_to_value</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, diss.o(.text.diss_handle_to_value))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = diss_handle_to_value
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[31]"></a>diss_prf_itf_get</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, diss.o(.text.diss_prf_itf_get))
+<BR>[Address Reference Count : 1]<UL><LI> app_dis.o(.text.app_dis_add_dis)
+</UL>
+<P><STRONG><a name="[d8]"></a>diss_task_init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, diss_task.o(.text.diss_task_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = diss_task_init &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_init
+</UL>
+
+<P><STRONG><a name="[da]"></a>diss_value_to_handle</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, diss.o(.text.diss_value_to_handle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = diss_value_to_handle
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+</UL>
+
+<P><STRONG><a name="[28]"></a>fputc</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, ns_log_usart.o(.text.fputc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> _printf_char_file.o(.text)
+</UL>
+<P><STRONG><a name="[e9]"></a>llhwc_modem_setmode</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, rwip_driver.o(.text.llhwc_modem_setmode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = llhwc_modem_setmode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_le_phy_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_scan
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+</UL>
+
+<P><STRONG><a name="[112]"></a>llhwc_phy_prerx_flash</STRONG> (Thumb, 228 bytes, Stack size 20 bytes, rwip_driver.o(.text.llhwc_phy_prerx_flash))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = llhwc_phy_prerx_flash
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+</UL>
+
+<P><STRONG><a name="[7d]"></a>main</STRONG> (Thumb, 60 bytes, Stack size 0 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 472<LI>Call Chain = main &rArr; app_ble_init &rArr; SystemGetMacAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_schedule
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedInit
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_n_10us
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedOn
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[34]"></a>ns_EXTI4_12_IRQHandler</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, ns_ble.o(.text.ns_EXTI4_12_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = ns_EXTI4_12_IRQHandler &rArr; ns_log_usart_init &rArr; USART_Init &rArr; RCC_GetClocksFreqValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_ClrITPendBit
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_GetITStatus
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[32]"></a>ns_HardFault_Handler</STRONG> (Thumb, 96 bytes, Stack size 0 bytes, ns_ble.o(.text.ns_HardFault_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = ns_HardFault_Handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[ba]"></a>ns_ble_add_prf_func_register</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, ns_ble.o(.text.ns_ble_add_prf_func_register))
+<BR><BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[ee]"></a>ns_ble_add_svc</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, ns_ble.o(.text.ns_ble_add_svc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ns_ble_add_svc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+</UL>
+
+<P><STRONG><a name="[ea]"></a>ns_ble_adv_fsm_next</STRONG> (Thumb, 408 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_adv_fsm_next))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = ns_ble_adv_fsm_next &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_modem_setmode
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_activity_stopped_ind_handler
+</UL>
+
+<P><STRONG><a name="[b9]"></a>ns_ble_adv_init</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_adv_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_adv_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[bb]"></a>ns_ble_adv_start</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_adv_start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = ns_ble_adv_start &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_param_update_req_ind_handler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_msg_handler
+</UL>
+
+<P><STRONG><a name="[f0]"></a>ns_ble_adv_stop</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_adv_stop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_adv_stop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+</UL>
+
+<P><STRONG><a name="[ec]"></a>ns_ble_delete_init</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, ns_ble.o(.text.ns_ble_delete_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ns_ble_delete_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_activity_stopped_ind_handler
+</UL>
+
+<P><STRONG><a name="[eb]"></a>ns_ble_delete_scan</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, ns_ble.o(.text.ns_ble_delete_scan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ns_ble_delete_scan
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_activity_stopped_ind_handler
+</UL>
+
+<P><STRONG><a name="[e0]"></a>ns_ble_disconnect</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_disconnect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_disconnect
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_bond_ind_handler
+</UL>
+
+<P><STRONG><a name="[b7]"></a>ns_ble_gap_init</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_gap_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ns_ble_gap_init &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[e6]"></a>ns_ble_get_connection_num</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, ns_ble.o(.text.ns_ble_get_connection_num))
+<BR><BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_disconnect_ind_handler
+</UL>
+
+<P><STRONG><a name="[f2]"></a>ns_ble_list_set_ral</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_list_set_ral))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ns_ble_list_set_ral &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_bond_store_evt_handler
+</UL>
+
+<P><STRONG><a name="[c8]"></a>ns_ble_lsc_config</STRONG> (Thumb, 116 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_lsc_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_lsc_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calib_lsi_clk
+</UL>
+<BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_lsi_calib_evt_handler
+</UL>
+
+<P><STRONG><a name="[c1]"></a>ns_ble_prf_task_register</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_prf_task_register))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_prf_task_register
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_dis_add_dis
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blps_add_blps
+</UL>
+
+<P><STRONG><a name="[f4]"></a>ns_ble_scan_data_find</STRONG> (Thumb, 84 bytes, Stack size 32 bytes, ns_ble.o(.text.ns_ble_scan_data_find))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ns_ble_scan_data_find &rArr; memcmp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcmp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_ext_adv_repoer_ind_handler
+</UL>
+
+<P><STRONG><a name="[b5]"></a>ns_ble_stack_init</STRONG> (Thumb, 540 bytes, Stack size 48 bytes, ns_ble.o(.text.ns_ble_stack_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = ns_ble_stack_init &rArr; rwip_init &rArr; llhwc_phy_prerx_flash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_InitPeripheral
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_EnableAHBPeriphClk
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calib_lsi_clk
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep_lock_acquire
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_task_create
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_init
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[f3]"></a>ns_ble_start_init</STRONG> (Thumb, 188 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_start_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ns_ble_start_init &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_modem_setmode
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_ext_adv_repoer_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+</UL>
+
+<P><STRONG><a name="[f1]"></a>ns_ble_start_scan</STRONG> (Thumb, 188 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_start_scan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ns_ble_start_scan &rArr; llhwc_modem_setmode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_modem_setmode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+</UL>
+
+<P><STRONG><a name="[f5]"></a>ns_ble_stop_scan</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, ns_ble.o(.text.ns_ble_stop_scan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_ble_stop_scan
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_ext_adv_repoer_ind_handler
+</UL>
+
+<P><STRONG><a name="[c3]"></a>ns_ble_update_param</STRONG> (Thumb, 128 bytes, Stack size 24 bytes, ns_ble.o(.text.ns_ble_update_param))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ns_ble_update_param &rArr; puts &rArr; fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_free
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_conn_params_update_evt_handler
+</UL>
+
+<P><STRONG><a name="[c6]"></a>ns_bond_last_bonded_peer_id</STRONG> (Thumb, 88 bytes, Stack size 64 bytes, ns_sec.o(.text.ns_bond_last_bonded_peer_id))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Erase_Sector
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+</UL>
+
+<P><STRONG><a name="[ef]"></a>ns_bond_last_bonded_ral_info</STRONG> (Thumb, 136 bytes, Stack size 72 bytes, ns_sec.o(.text.ns_bond_last_bonded_ral_info))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = ns_bond_last_bonded_ral_info &rArr; __aeabi_memmove &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Erase_Sector
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+</UL>
+
+<P><STRONG><a name="[103]"></a>ns_log_usart_deinit</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, ns_log_usart.o(.text.ns_log_usart_deinit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = ns_log_usart_deinit &rArr; GPIO_DeInitPin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Enable
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_DeInitPin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+</UL>
+
+<P><STRONG><a name="[f8]"></a>ns_log_usart_init</STRONG> (Thumb, 88 bytes, Stack size 56 bytes, ns_log_usart.o(.text.ns_log_usart_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = ns_log_usart_init &rArr; USART_Init &rArr; RCC_GetClocksFreqValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Enable
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_EnableAPB2PeriphClk
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_InitStruct
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_InitPeripheral
+</UL>
+<BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_EXTI4_12_IRQHandler
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_HardFault_Handler
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[54]"></a>ns_sec_bond_store_evt_handler</STRONG> (Thumb, 304 bytes, Stack size 504 bytes, ns_sec.o(.text.ns_sec_bond_store_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 552<LI>Call Chain = ns_sec_bond_store_evt_handler &rArr; ns_ble_list_set_ral &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Write
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Erase_Sector
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_list_set_ral
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_time_get
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[c5]"></a>ns_sec_get_bond_status</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, ns_sec.o(.text.ns_sec_get_bond_status))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_advertising
+</UL>
+
+<P><STRONG><a name="[e5]"></a>ns_sec_get_iocap</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, ns_sec.o(.text.ns_sec_get_iocap))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_connection_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[b8]"></a>ns_sec_init</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, ns_sec.o(.text.ns_sec_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ns_sec_init &rArr; Qflash_Erase_Sector
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Erase_Sector
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_ble_init
+</UL>
+
+<P><STRONG><a name="[fa]"></a>ns_sleep</STRONG> (Thumb, 272 bytes, Stack size 32 bytes, ns_sleep.o(.text.ns_sleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = ns_sleep &rArr; ns_log_usart_init &rArr; USART_Init &rArr; RCC_GetClocksFreqValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_event_set
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_PA11_Configuration (via Veneer)
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_deinit
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_log_usart_init
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_time_get
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_sleep
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sleep_resume_proc
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_sleep_prepare_proc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ff]"></a>ns_sleep_lock_acquire</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ns_sleep.o(.text.ns_sleep_lock_acquire))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+</UL>
+
+<P><STRONG><a name="[ca]"></a>ns_sleep_lock_release</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, ns_sleep.o(.text.ns_sleep_lock_release))
+<BR><BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_lsi_calib_evt_handler
+</UL>
+
+<P><STRONG><a name="[c7]"></a>ns_timer_api_process_handler</STRONG> (Thumb, 208 bytes, Stack size 24 bytes, ns_timer.o(.text.ns_timer_api_process_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ns_timer_api_process_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_entry_point_handler
+</UL>
+
+<P><STRONG><a name="[c0]"></a>ns_timer_create</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, ns_timer.o(.text.ns_timer_create))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ns_timer_create
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_cfg_indntf_ind_handler
+</UL>
+
+<P><STRONG><a name="[35]"></a>prf_add_profile</STRONG> (Thumb, 172 bytes, Stack size 32 bytes, prf.o(.text.prf_add_profile))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = prf_add_profile
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[d6]"></a>prf_dst_task_get</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, prf.o(.text.prf_dst_task_get))
+<BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+</UL>
+
+<P><STRONG><a name="[bc]"></a>prf_env_get</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, prf.o(.text.prf_env_get))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prf_env_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_cmp_evt_handler
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_racp_resp_send_cmd_handler
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_meas_send_cmd_handler
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_enable_req_handler
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_pack_meas_value
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_task_init
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_cfm_handler
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_read_req_ind_handler
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_set_value_req_handler
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_task_init
+</UL>
+
+<P><STRONG><a name="[37]"></a>prf_get_id_from_task</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, prf.o(.text.prf_get_id_from_task))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = prf_get_id_from_task
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[c2]"></a>prf_get_itf_func_register</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, prf.o(.text.prf_get_itf_func_register))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prf_get_itf_func_register
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_dis_add_dis
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blps_add_blps
+</UL>
+
+<P><STRONG><a name="[36]"></a>prf_get_task_from_id</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, prf.o(.text.prf_get_task_from_id))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = prf_get_task_from_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_blood_pressure_timeout_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[ed]"></a>prf_init</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, prf.o(.text.prf_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = prf_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_task_create
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_task_delete
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_task_msg_flush
+</UL>
+<BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapm_cmp_evt_handler
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+</UL>
+
+<P><STRONG><a name="[d4]"></a>prf_pack_date_time</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, prf_utils.o(.text.prf_pack_date_time))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_pack_meas_value
+</UL>
+
+<P><STRONG><a name="[d5]"></a>prf_src_task_get</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, prf.o(.text.prf_src_task_get))
+<BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gattc_write_req_ind_handler
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+</UL>
+
+<P><STRONG><a name="[101]"></a>rwip_init</STRONG> (Thumb, 168 bytes, Stack size 16 bytes, rwip.o(.text.rwip_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = rwip_init &rArr; llhwc_phy_prerx_flash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_driver_init
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_init
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_hl_init
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ahi_init (via Veneer)
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hci_init
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;h4tl_init
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_eif_get
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecc_init
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_phy_prerx_flash
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_init
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_mem_init
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stack_init
+</UL>
+
+<P><STRONG><a name="[109]"></a>rwip_sleep</STRONG> (Thumb, 256 bytes, Stack size 40 bytes, rwip_driver.o(.text.rwip_sleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = rwip_sleep
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_prevent_sleep_set
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_time_get
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_sleep_check
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep
+</UL>
+
+<P><STRONG><a name="[33]"></a>rwip_slp_isr</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, rwip_driver.o(.text.rwip_slp_isr))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = rwip_slp_isr &rArr; llhwc_phy_prerx_flash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_prevent_sleep_clear
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_prevent_sleep_set
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_phy_prerx_flash
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2uiz
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fdiv
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidiv
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble.o(.text.ns_ble_stack_init)
+</UL>
+<P><STRONG><a name="[b0]"></a>system_delay_cycles</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, system_n32wb03x.o(.text.system_delay_cycles))
+<BR><BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_delay_cycles
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_delay_cycles
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[b3]"></a>__aeabi_uidiv</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, aeabi_sdivfast.o(.text_divfast))
+<BR><BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_sleep
+</UL>
+
+<P><STRONG><a name="[15b]"></a>__aeabi_idiv</STRONG> (Thumb, 434 bytes, Stack size 8 bytes, aeabi_sdivfast.o(.text_divfast), UNUSED)
+
+<P><STRONG><a name="[8d]"></a>_is_digit</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, __printf_wp.o(i._is_digit))
+<BR><BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+
+<P><STRONG><a name="[11f]"></a>__aeabi_fmul</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_slp_isr
+</UL>
+
+<P><STRONG><a name="[15c]"></a>_fmul</STRONG> (Thumb, 172 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[65]"></a>diss_init</STRONG> (Thumb, 160 bytes, Stack size 56 bytes, diss.o(.text.diss_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = diss_init &rArr; diss_task_init &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_list_init
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_task_init
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_malloc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;attm_svc_create_db (via Veneer)
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> diss.o(.rodata.diss_itf)
+</UL>
+<P><STRONG><a name="[66]"></a>diss_destroy</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, diss.o(.text.diss_destroy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = diss_destroy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_free
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_list_pop_front
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> diss.o(.rodata.diss_itf)
+</UL>
+<P><STRONG><a name="[67]"></a>diss_create</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, diss.o(.text.diss_create))
+<BR>[Address Reference Count : 1]<UL><LI> diss.o(.rodata.diss_itf)
+</UL>
+<P><STRONG><a name="[68]"></a>diss_cleanup</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, diss.o(.text.diss_cleanup))
+<BR>[Address Reference Count : 1]<UL><LI> diss.o(.rodata.diss_itf)
+</UL>
+<P><STRONG><a name="[69]"></a>diss_set_value_req_handler</STRONG> (Thumb, 156 bytes, Stack size 32 bytes, diss_task.o(.text.diss_set_value_req_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = diss_set_value_req_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_list_push_back
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_list_extract
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_check_val_len
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_to_handle
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_free
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_malloc
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> diss_task.o(.rodata.diss_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[6a]"></a>gattc_read_req_ind_handler</STRONG> (Thumb, 192 bytes, Stack size 24 bytes, diss_task.o(.text.gattc_read_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = gattc_read_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_handle_to_value
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_dst_task_get
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> diss_task.o(.rodata.diss_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[6b]"></a>diss_value_cfm_handler</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, diss_task.o(.text.diss_value_cfm_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = diss_value_cfm_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;diss_value_to_handle
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> diss_task.o(.rodata.diss_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[5b]"></a>blps_init</STRONG> (Thumb, 152 bytes, Stack size 56 bytes, blps.o(.text.blps_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = blps_init &rArr; blps_task_init &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_task_init
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_malloc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;attm_svc_create_db (via Veneer)
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps.o(.rodata.blps_itf)
+</UL>
+<P><STRONG><a name="[5c]"></a>blps_destroy</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, blps.o(.text.blps_destroy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = blps_destroy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_free
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps.o(.rodata.blps_itf)
+</UL>
+<P><STRONG><a name="[5d]"></a>blps_create</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, blps.o(.text.blps_create))
+<BR>[Address Reference Count : 1]<UL><LI> blps.o(.rodata.blps_itf)
+</UL>
+<P><STRONG><a name="[5e]"></a>blps_cleanup</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, blps.o(.text.blps_cleanup))
+<BR>[Address Reference Count : 1]<UL><LI> blps.o(.rodata.blps_itf)
+</UL>
+<P><STRONG><a name="[5f]"></a>blps_enable_req_handler</STRONG> (Thumb, 136 bytes, Stack size 24 bytes, blps_task.o(.text.blps_enable_req_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = blps_enable_req_handler &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_conhdl
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[60]"></a>gattc_read_req_ind_handler</STRONG> (Thumb, 128 bytes, Stack size 24 bytes, blps_task.o(.text.gattc_read_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = gattc_read_req_ind_handler &rArr; prf_env_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[61]"></a>blps_meas_send_cmd_handler</STRONG> (Thumb, 220 bytes, Stack size 40 bytes, blps_task.o(.text.blps_meas_send_cmd_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = blps_meas_send_cmd_handler &rArr; blps_send_cmp_evt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_conhdl
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_pack_meas_value
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[62]"></a>blps_racp_resp_send_cmd_handler</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, blps_task.o(.text.blps_racp_resp_send_cmd_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = blps_racp_resp_send_cmd_handler &rArr; blps_send_cmp_evt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gapc_get_conhdl
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[63]"></a>gattc_cmp_evt_handler</STRONG> (Thumb, 42 bytes, Stack size 24 bytes, blps_task.o(.text.gattc_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = gattc_cmp_evt_handler &rArr; blps_send_cmp_evt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blps_send_cmp_evt
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[64]"></a>gattc_write_req_ind_handler</STRONG> (Thumb, 384 bytes, Stack size 56 bytes, blps_task.o(.text.gattc_write_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = gattc_write_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_dst_task_get
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_src_task_get
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_env_get
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> blps_task.o(.rodata.blps_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[38]"></a>timer_modified_handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, ns_timer.o(.text.timer_modified_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_timer.o(.text.ns_timer_api_process_handler)
+</UL>
+<P><STRONG><a name="[39]"></a>timer_canceled_handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, ns_timer.o(.text.timer_canceled_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_timer.o(.text.ns_timer_api_process_handler)
+</UL>
+<P><STRONG><a name="[56]"></a>app_sec_msg_dflt_handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ns_sec.o(.text.app_sec_msg_dflt_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_sec.o(.rodata.app_sec_msg_handler_list)
+</UL>
+<P><STRONG><a name="[57]"></a>gapc_bond_req_ind_handler</STRONG> (Thumb, 468 bytes, Stack size 48 bytes, ns_sec.o(.text.gapc_bond_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = gapc_bond_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_free
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwip_time_get
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rand
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_sec.o(.rodata.app_sec_msg_handler_list)
+</UL>
+<P><STRONG><a name="[58]"></a>gapc_bond_ind_handler</STRONG> (Thumb, 148 bytes, Stack size 24 bytes, ns_sec.o(.text.gapc_bond_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = gapc_bond_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_disconnect
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_sec.o(.rodata.app_sec_msg_handler_list)
+</UL>
+<P><STRONG><a name="[59]"></a>gapc_encrypt_req_ind_handler</STRONG> (Thumb, 316 bytes, Stack size 104 bytes, ns_sec.o(.text.gapc_encrypt_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = gapc_encrypt_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Qflash_Erase_Sector
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcmp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_sec.o(.rodata.app_sec_msg_handler_list)
+</UL>
+<P><STRONG><a name="[5a]"></a>gapc_encrypt_ind_handler</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, ns_sec.o(.text.gapc_encrypt_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = gapc_encrypt_ind_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_sec.o(.rodata.app_sec_msg_handler_list)
+</UL>
+<P><STRONG><a name="[cb]"></a>app_set_scan_rsp_data</STRONG> (Thumb, 180 bytes, Stack size 24 bytes, ns_ble.o(.text.app_set_scan_rsp_data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = app_set_scan_rsp_data &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+</UL>
+
+<P><STRONG><a name="[c4]"></a>app_create_advertising</STRONG> (Thumb, 228 bytes, Stack size 24 bytes, ns_ble.o(.text.app_create_advertising))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_get_bond_status
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_peer_id
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+</UL>
+
+<P><STRONG><a name="[40]"></a>gapm_activity_created_ind_handler</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, ns_ble_task.o(.text.gapm_activity_created_ind_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[41]"></a>gapm_activity_stopped_ind_handler</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, ns_ble_task.o(.text.gapm_activity_stopped_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = gapm_activity_stopped_ind_handler &rArr; ns_ble_adv_fsm_next &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_init
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_scan
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[42]"></a>gapm_gen_rand_nb_ind_handler</STRONG> (Thumb, 68 bytes, Stack size 24 bytes, ns_ble_task.o(.text.gapm_gen_rand_nb_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gapm_gen_rand_nb_ind_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[43]"></a>gapm_addr_solved_ind_handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ns_ble_task.o(.text.gapm_addr_solved_ind_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[44]"></a>gapm_cmp_evt_handler</STRONG> (Thumb, 1028 bytes, Stack size 80 bytes, ns_ble_task.o(.text.gapm_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216 + Unknown Stack Size
+<LI>Call Chain = gapm_cmp_evt_handler &rArr; ns_ble_adv_fsm_next &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_init
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_delete_scan
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_scan
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_stop
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_fsm_next
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_add_svc
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_list_set_ral
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_get_bond_status
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_bond_last_bonded_ral_info
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;attm_svc_create_db (via Veneer)
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_modem_setmode
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[45]"></a>gapm_profile_added_ind_handler</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, ns_ble_task.o(.text.gapm_profile_added_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = gapm_profile_added_ind_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[46]"></a>gattc_mtu_changed_ind_handler</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, ns_ble_task.o(.text.gattc_mtu_changed_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = gattc_mtu_changed_ind_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[47]"></a>gattc_cmp_evt_handler</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, ns_ble_task.o(.text.gattc_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gattc_cmp_evt_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[48]"></a>gapc_connection_req_ind_handler</STRONG> (Thumb, 224 bytes, Stack size 40 bytes, ns_ble_task.o(.text.gapc_connection_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176 + Unknown Stack Size
+<LI>Call Chain = gapc_connection_req_ind_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_get_iocap
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sec_get_bond_status
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[49]"></a>gapc_param_update_req_ind_handler</STRONG> (Thumb, 92 bytes, Stack size 32 bytes, ns_ble_task.o(.text.gapc_param_update_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = gapc_param_update_req_ind_handler &rArr; ns_ble_adv_start &rArr; app_create_advertising &rArr; ns_bond_last_bonded_peer_id &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_adv_start
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4a]"></a>gapc_param_updated_ind_handler</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, ns_ble_task.o(.text.gapc_param_updated_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gapc_param_updated_ind_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4b]"></a>gapc_le_pkt_size_ind_handler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, ns_ble_task.o(.text.gapc_le_pkt_size_ind_handler))
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4c]"></a>gapc_disconnect_ind_handler</STRONG> (Thumb, 76 bytes, Stack size 32 bytes, ns_ble_task.o(.text.gapc_disconnect_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
+<LI>Call Chain = gapc_disconnect_ind_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_get_connection_num
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_set
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4d]"></a>gapc_get_dev_info_req_ind_handler</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, ns_ble_task.o(.text.gapc_get_dev_info_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = gapc_get_dev_info_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4e]"></a>gapc_le_phy_ind_handler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, ns_ble_task.o(.text.gapc_le_phy_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144 + Unknown Stack Size
+<LI>Call Chain = gapc_le_phy_ind_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llhwc_modem_setmode
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[4f]"></a>gapc_set_dev_info_req_ind_handler</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, ns_ble_task.o(.text.gapc_set_dev_info_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = gapc_set_dev_info_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[50]"></a>gapc_cmp_evt_handler</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, ns_ble_task.o(.text.gapc_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gapc_cmp_evt_handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[51]"></a>gapc_conn_rssi_ind_handler</STRONG> (Thumb, 88 bytes, Stack size 32 bytes, ns_ble_task.o(.text.gapc_conn_rssi_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = gapc_conn_rssi_ind_handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_state_get
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[52]"></a>app_lsi_calib_evt_handler</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, ns_ble_task.o(.text.app_lsi_calib_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = app_lsi_calib_evt_handler &rArr; ns_ble_lsc_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_lsc_config
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_set
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_sleep_lock_release
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[53]"></a>app_conn_params_update_evt_handler</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, ns_ble_task.o(.text.app_conn_params_update_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = app_conn_params_update_evt_handler &rArr; ns_ble_update_param &rArr; puts &rArr; fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_update_param
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[55]"></a>gapm_ext_adv_repoer_ind_handler</STRONG> (Thumb, 196 bytes, Stack size 24 bytes, ns_ble_task.o(.text.gapm_ext_adv_repoer_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = gapm_ext_adv_repoer_ind_handler &rArr; ns_ble_start_init &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_scan_data_find
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_start_init
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_ble_stop_scan
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcmp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ns_ble_task.o(.rodata.app_msg_handler_tab)
+</UL>
+<P><STRONG><a name="[3e]"></a>diss_value_req_ind_handler</STRONG> (Thumb, 140 bytes, Stack size 24 bytes, app_dis.o(.text.diss_value_req_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = diss_value_req_ind_handler &rArr; __aeabi_memcpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_send
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_msg_alloc
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_dis.o(.rodata.app_dis_msg_handler_list)
+</UL>
+<P><STRONG><a name="[3a]"></a>blps_enable_rsp_handler</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, app_blps.o(.text.blps_enable_rsp_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144 + Unknown Stack Size
+<LI>Call Chain = blps_enable_rsp_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_blps.o(.rodata.app_blps_msg_handler_list)
+</UL>
+<P><STRONG><a name="[3b]"></a>blps_cfg_indntf_ind_handler</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, app_blps.o(.text.blps_cfg_indntf_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = blps_cfg_indntf_ind_handler &rArr; puts &rArr; fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ns_timer_create
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_blps.o(.rodata.app_blps_msg_handler_list)
+</UL>
+<P><STRONG><a name="[3c]"></a>blps_racp_write_ind_handler</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, app_blps.o(.text.blps_racp_write_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160 + Unknown Stack Size
+<LI>Call Chain = blps_racp_write_ind_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_blps.o(.rodata.app_blps_msg_handler_list)
+</UL>
+<P><STRONG><a name="[3d]"></a>blps_cmp_evt_handler</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, app_blps.o(.text.blps_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144 + Unknown Stack Size
+<LI>Call Chain = blps_cmp_evt_handler &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> app_blps.o(.rodata.app_blps_msg_handler_list)
+</UL>
+<P><STRONG><a name="[29]"></a>_printf_input_char</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, _printf_char_common.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> _printf_char_common.o(.text)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3>
+<P><STRONG><a name="[a5]"></a>_call_atexit_fns</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[9f]"></a>_printf_mbtowc</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
+</UL>
+
+<P><STRONG><a name="[88]"></a>_printf_truncate_signed</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
+</UL>
+
+<P><STRONG><a name="[89]"></a>_printf_truncate_unsigned</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
+</UL>
+<HR></body></html>
