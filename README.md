@@ -10,14 +10,15 @@ To build and run the SDK projects, please install the required development tools
 
 ## Required Software
 
-### 1) IAR Embedded Workbench for ARM
+### 1) Keil MDK-ARM
 
-This SDK is intended to be built using **IAR Embedded Workbench for ARM**.
+This SDK is intended to be built using **Keil MDK-ARM**.
 
 **Download Link:**
-[https://www.iar.com/embedded-development-tools/iar-embedded-workbench-for-arm](https://www.iar.com/embedded-development-tools/iar-embedded-workbench-for-arm)
+https://www.keil.com/download/
 
 * Install a version supporting ARM Cortex-M series.
+* Ensure ARM Compiler and required Device Packs are installed.
 * A valid license may be required for full project builds.
 * Trial version can be used for evaluation.
 
@@ -31,27 +32,29 @@ This SDK is intended to be built using **IAR Embedded Workbench for ARM**.
 git clone https://github.com/BIMATIX/N32WB03x_SDK.git
 ```
 
-### Step 2 – Open a Project in IAR
+### Step 2 – Open a Project in Keil
 
-1. Launch IAR Embedded Workbench
-2. Click **File → Open → Workspace**
+1. Launch **Keil µVision**
+2. Click **Project → Open Project**
 3. Navigate to:
 
 ```
-projects/<example_project>/iar/
+projects/<example_project>/keil/
 ```
 
-4. Open the `.eww` workspace file
+4. Open the `.uvprojx` project file
 
 ### Step 3 – Build the Project
 
 * Select the correct target configuration
-* Click **Project → Rebuild All**
+* Click **Project → Build Target**
+* Or press **F7**
 
 ### Step 4 – Program the Device
 
 * Connect the debugger
-* Click **Download and Debug**
+* Click **Flash → Download**
+* Start debugging using **Debug → Start/Stop Debug Session**
 
 ---
 
@@ -63,7 +66,7 @@ N32WB03x_SDK/
 ├── firmware/        → Core device drivers and firmware source files
 ├── middlewares/     → Protocol stacks and middleware components
 ├── utilities/       → Helper libraries and support utilities
-├── projects/        → Example applications and IAR workspaces
+├── projects/        → Example applications and Keil project files
 ```
 
 ### Folder Description
@@ -78,13 +81,13 @@ N32WB03x_SDK/
   Common helper functions, tools, and reusable modules shared across projects.
 
 * **projects**
-  Ready-to-build example applications with IAR project files.
+  Ready-to-build example applications with Keil project files.
 
 ---
 
 ## Notes
 
-* Ensure the correct device is selected in IAR project settings.
+* Ensure the correct device is selected in Keil project settings.
 * Use example projects inside the `projects` folder as a reference for new development.
 * All required core files and libraries are included within the SDK.
 
